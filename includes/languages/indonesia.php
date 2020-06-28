@@ -15,7 +15,7 @@
   define('FOOTER_TEXT_BODY', 'Hak Cipta &copy; ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '" target="_blank">' . STORE_NAME . '</a>. Diberdayakan oleh <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
 
 // look in your $PATH_LOCALE/locale directory for available locales..
-  $locales = array('id_ID.UTF-8', 'id_ID', 'Indonesian_indonesia.1252', 'id'');
+  $locales = array('id_ID.UTF-8', 'id_ID', 'Indonesian_indonesia.1252', 'id');
   @setlocale(LC_TIME, $locales);
   define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // this is used for strftime()
   define('DATE_FORMAT', 'd/m/Y'); // this is used for date()
