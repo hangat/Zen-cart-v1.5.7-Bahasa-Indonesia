@@ -1,0 +1,36 @@
+<?php
+
+define('HEADING_TITLE', 'Manajer Plugin');
+define('TABLE_HEADING_ACTION', 'Tindakan');
+define('TABLE_HEADING_KEY', 'Kunci Plugin');
+define('TABLE_HEADING_NAME', 'Nama');
+define('TABLE_HEADING_STATUS', 'Status');
+define('TABLE_HEADING_FILE_SPACE', 'File Space');
+define('TABLE_HEADING_VERSION_INSTALLED', 'Versi');
+define('TEXT_INSTALL', 'Install');
+define('TEXT_UNINSTALL', 'Un-Install');
+define('TEXT_DISABLE', 'Disable');
+define('TEXT_ENABLE', 'Enable');
+define('TEXT_CLEANUP', 'Membersihkan');
+define('TEXT_UPGRADE', 'Upgrade');
+define('TEXT_CONFIRM', 'Konfirmasi');
+define('TEXT_INFO_DESCRIPTION', 'Keterangan Plugin:');
+define('TEXT_INFO_CLEANUP', 'Hapus direktori versi plugin yang tidak diinginkan');
+define('TEXT_INFO_SELECT_CLEAN', 'Pilih versi yang ingin Anda hapus');
+define('TEXT_INSTALLED_ENABLED', 'Terpasang (Diaktifkan)');
+define('TEXT_INSTALLED_DISABLED', 'Terpasang (Dinonaktifkan)');
+define('TEXT_NOT_INSTALLED', 'Tidak terpasang');
+define('TEXT_INSTALL_SUCCESS', 'Plugin berhasil diinstal');
+define('TEXT_UNINSTALL_SUCCESS', 'Plugin tidak diinstal dengan sukses');
+define('TEXT_DISABLE_SUCCESS', 'Plugin berhasil dinonaktifkan');
+define('TEXT_ENABLE_SUCCESS', 'Plugin berhasil diaktifkan');
+define('TEXT_UPGRADE_AVAILABLE', 'Upgrade Tersedia');
+define('TEXT_VERSION_INSTALLED', 'Versi Terpasang: %s');
+define('TEXT_CONFIRM_UNINSTALL', 'Anda yakin ingin menghapus plugin ini?');
+define('TEXT_CONFIRM_UPGRADE', 'Anda yakin ingin memperbarui plugin ini?');
+define('TEXT_CONFIRM_DISABLE', 'Anda yakin ingin menonaktifkan plugin ini?');
+define('TEXT_CONFIRM_ENABLE', 'Apakah Anda yakin ingin mengaktifkan plugin ini?');
+define('TEXT_INFO_UPGRADE', 'Silakan pilih versi yang ingin Anda tingkatkan.');
+define('TEXT_INFO_UPGRADE_CONFIRM', 'Tingkatkan versi %s');
+define('TEXT_INFO_UPGRADE_WARNING', 'Peringatan: bla bla');
+define('TEXT_INFO_CONFIRM_CLEAN', 'Konfirmasikan direktori versi untuk membersihkan / menghapus');

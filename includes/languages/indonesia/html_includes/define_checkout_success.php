@@ -1,0 +1,2 @@
+<p><strong>Teks Contoh untuk Berhasil Memeriksa ...</strong></p><p>Beberapa kalimat tentang waktu perkiraan pengiriman atau kebijakan pemrosesan Anda dapat diletakkan disini. </p>
+<p>Teks untuk bagian ini berasal dari Editor Halaman Penjelasan yang terletak pada menu Peralatan di halaman Admin.</p>

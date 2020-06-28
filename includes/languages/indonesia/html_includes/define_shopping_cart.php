@@ -1,0 +1,2 @@
+<p>File ini ditemukan di includes/languages/indonesia/html_includes/define_shopping_cart.php</p>
+<p>Edit teks ini (yang sedang Anda baca sekarang) di Admin > Tools > Define Pages Editor untuk menulis pesan keranjang belanja pribadi Anda di sini</p>
