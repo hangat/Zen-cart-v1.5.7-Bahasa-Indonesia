@@ -27,10 +27,10 @@ define('TEXT_DELETE_CATEGORY_INTRO_LINKED_PRODUCTS', '<strong>Peringatan:</stron
 define('TEXT_INFO_HEADING_MOVE_CATEGORY', 'Pindah Kategori');
 define('TEXT_MOVE_CATEGORIES_INTRO', 'Silahkan pilih kategori mana yang anda inginkan <b>%s</b> untuk di huni');
 define('TEXT_MOVE_PRODUCT', 'Pindah produk<br><strong>ID#%1$u %2$s</strong><br>dari kategori saat ini<br><strong>ID#%3$u %4$s</strong><br>ke:');
-define('TEXT_INFO_HEADING_DELETE_PRODUCT', 'Hapus Produk');
-define('TEXT_DELETE_PRODUCT_INTRO', 'Anda yakin ingin menghapus permanen produk ini?<br /><br /><strong>Peringatan:</strong> Pada Produk Terkait<br />1 Yakinkan Kategori Induk telah berubah jika anda menghapus Produk dari Induk Kategori<br />2 Centang checkbox untuk Kategori pada asal Produk Hapus');
+define('TEXT_INFO_HEADING_DELETE_PRODUCT', 'Hapus Produk/link');
+define('TEXT_DELETE_PRODUCT_INTRO', 'Hapus tautan produk ini ke kategori atau hapus produk sepenuhnya.<br />Untuk lebih mudah menautkan/memutuskan tautan produk ke beberapa kategori, Anda juga dapat menggunakan <a href="index.php?cmd=' . FILENAME_PRODUCTS_TO_CATEGORIES . '&amp;products_filter=%u">Pengelola Tautan Multi Kategori</a>.<br /><br /><strong>Kategori yang ditautkan</strong> telah dipilih sebelumnya siap untuk dihapus.<br /><strong>Kategori Utama</strong> (<span class="text-danger">highlighted</span>) tidak dipilih untuk mencegah penghapusan tidak disengaja.<br /><br />Untuk menghapus produk sepenuhnya, pilih SEMUA kategori termasuk Kategori Utama.');
 define('TEXT_INFO_HEADING_MOVE_PRODUCT', 'Pindah Produk');
-define('TEXT_MOVE_PRODUCTS_INTRO', 'Sillahkan Pilih kategori yang anda inginkan <b>%s</b> untuk di huni');
+define('TEXT_MOVE_PRODUCTS_INTRO', 'Pindahkan produk ini dari kategori ini ke kategori yang dipilih.<br />Jika kategori ini juga merupakan Kategori Induk produk, itu juga akan diperbarui ke kategori yang dipilih.<br />');
 define('TEXT_INFO_CURRENT_CATEGORIES', 'Katagori Saat ini: ');
 define('TEXT_INFO_HEADING_COPY_TO', 'Salin Ke');
 define('TEXT_INFO_CURRENT_PRODUCT', 'Produk Saat ini: ');

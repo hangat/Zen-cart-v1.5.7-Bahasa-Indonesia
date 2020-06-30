@@ -19,7 +19,7 @@ define('HEADER_LOGO_HEIGHT', '68');
 define('HEADER_LOGO_IMAGE', 'logo.gif');
 
 // look in your $PATH_LOCALE/locale directory for available locales..
-$locales = array('id_ID.UTF-8', 'id_ID', 'Indonesian_indonesia.1252', 'id');
+$locales = ['id_ID', 'id_ID.UTF-8', 'id', 'Indonesian_indonesia.1252'];
 @setlocale(LC_TIME, $locales);
 define('DATE_FORMAT_SHORT', '%d/%m/%Y');  // this is used for strftime()
 define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // this is used for strftime()
@@ -29,7 +29,7 @@ define('PHP_DATE_TIME_FORMAT', 'd/m/Y H:i:s'); // this is used for date() calls 
 
 // for now both defines are needed until Spiffy is completely removed.
 define('DATE_FORMAT_SPIFFYCAL', 'dd/MM/yyyy');  //Use only 'dd', 'MM' and 'yyyy' here in any order
-define('DATE_FORMAT_DATE_PICKER', 'dd-mm-yy');  //Use only 'dd', 'mm' and 'yy' here in any order
+define('DATE_FORMAT_DATE_PICKER', 'yy-mm-dd');  //Use only 'dd', 'mm' and 'yy' here in any order
 define('ADMIN_NAV_DATE_TIME_FORMAT', '%A %d %b %Y %X'); // this is used for strftime()
 ////
 // Return date in raw format
@@ -686,7 +686,7 @@ define('TEXT_NOEMAIL', 'Jangan Email');
 
 define('BOX_HEADING_PRODUCT_TYPES', 'Tipe Produk');
 
-define('ERROR_DATABASE_MAINTENANCE_NEEDED', '<a href="http://www.zen-cart.com/content.php?334-ERROR-0071-There-appears-to-be-a-problem-with-the-database-Maintenance-is-required" target="_blank">ERROR 0071: Tampaknya ada masalah dengan database. Diperlukan perawatan.</a>');
+define('ERROR_DATABASE_MAINTENANCE_NEEDED', '<a href="https://docs.zen-cart.com/user/troubleshooting/error_71_maintenance_required/" rel="noopener" target="_blank">ERROR 0071 Tampaknya ada masalah dengan database. Diperlukan perawatan.</a>');
 
 // moved from currencies file:
 define('TEXT_INFO_CURRENCY_UPDATED', 'Nilai tukar untuk %s (%s) telah berhasil di update ke %s via %s.');

@@ -31,51 +31,49 @@ define('SUB_HEADING_TEXT', TEXT_GV_NAMES . ' adalah sama seperti cara membeli pr
   break;
   case '2':
 define('SUB_HEADING_TITLE','Cara Mengirim ' . TEXT_GV_NAMES);
-define('SUB_HEADING_TEXT','Untuk mengirim sebuah ' . TEXT_GV_NAME . ' Anda harus pergi ke halaman Kirim ' . TEXT_GV_NAME . ' kami. Anda dapat
-  menemukan tautan ke halaman ini dalam kotak Troli pada bagian sisi kanan dari tiap halaman.
-  Ketika Anda mengirim sebuah ' . TEXT_GV_NAME . ', Anda harus menentukan hal-hal berikut ini.
+define('SUB_HEADING_TEXT','Anda dapat mengirim ' . TEXT_GV_NAME . ' dari Halaman Akun. 
+  Ketika Anda mengirim sebuah ' . TEXT_GV_NAME . ' Anda harus menentukan hal-hal berikut ini.
   Nama orang yang Anda kirimkan ' . TEXT_GV_NAME . ' tersebut.
   Alamat email dari orang yang Anda kirimkan ' . TEXT_GV_NAME . ' tersebut.
   Jumlah yang ingin Anda kirimkan. (Harap diingat bahwa Anda tidak perlu mengirim seluruh jumlah
-  yang berada dalam Akun ' . TEXT_GV_NAME . ' Anda.)
-  Sebuah pesan singkat yang akan muncul pada Email.
-  Mohon pastikan bahwa Anda telah mengetikkan semua informasi tersebut dengan benar, meskipun
-  Anda akan diberikan kesempatan untuk mengubahnya sebanyak yang Anda inginkan sebelum
-  Email tersebut dikirimkan.');
-
+  yang berada dalam ' . TEXT_GV_NAME . ' Saldo Anda.)
+  Pesan singkat opsional yang akan muncul di email;
+  Harap pastikan bahwa Anda telah memasukkan semua informasi dengan benar, meskipun
+  Anda akan diberikan kesempatan untuk mengubah ini sebanyak yang Anda inginkan sebelumnya
+  email sebenarnya dikirim.');
   break;
   case '3':
   define('SUB_HEADING_TITLE','Membeli dengan ' . TEXT_GV_NAMES);
   define('SUB_HEADING_TEXT','Jika Anda memiliki dana dalam Akun ' . TEXT_GV_NAME . ' Anda, Anda dapat menggunakan dana tersebut untuk
-  membeli barang-barang lainnya pada toko kami. Pada tahap Anda selesai berbelanja, sebuah kotak tambahan akan
-  muncul. Ketikkan jumlah yang ingin digunakan dari dana dalam Akun ' . TEXT_GV_NAME . ' Anda.
-  Harap dicatat, Anda akan tetap bisa untuk memilih cara pembayaran lainnya jika
-  tidak cukup dana dalam Akun ' . TEXT_GV_NAME . ' Anda untuk memenuhi biaya pembayaran Anda.
-  Jika Anda memiliki kelebihan dana dalam Akun ' . TEXT_GV_NAME . ' Anda daripada total biaya
-  pembelian Anda maka neraca akan ditinggalkan dalam Akun ' . TEXT_GV_NAME . ' Anda untuk
-  masa yang akan datang.');
+  membeli barang lainnya pada toko kami. Pada tahap Anda selesai berbelanja, sebuah kotak tambahan akan
+  muncul. Ketikkan jumlah yang ingin digunakan dari Saldo dalam Akun ' . TEXT_GV_NAME . ' Anda.
+  Harap dicatat: Anda akan tetap bisa untuk memilih cara pembayaran lainnya jika
+  tidak cukup Saldo dalam Akun ' . TEXT_GV_NAME . ' Anda untuk memenuhi biaya pembayaran Anda.
+  Jika Anda memiliki kelebihan Saldo dalam Akun ' . TEXT_GV_NAME . ' Anda daripada total biaya
+  pembelian Anda, maka Saldo akan dibiarkan dalam Akun ' . TEXT_GV_NAME . ' Anda untuk
+  digunakan masa depan.');
   break;
   case '4':
   define('SUB_HEADING_TITLE','Menebus ' . TEXT_GV_NAMES);
-  define('SUB_HEADING_TEXT','Jika Anda telah menerima sebuah ' . TEXT_GV_NAME . ' lewat Email, maka email itu akan berisikan detail tentang orang yang memberikan
-  ' . TEXT_GV_NAME . ' tersebut kepada Anda, dan jika ada, bersama dengan sebuah pesan singkat dari mereka. Email 
-  tersebut juga akan berisi ' . TEXT_GV_REDEEM . ' ' . TEXT_GV_NAME . '. Suatu hal yang baik untuk Anda untuk mencetak 
-  email ini untuk referensi di masa yang akan datang. Anda sekarang dapat menebus ' . TEXT_GV_NAME . ' tersebut dalam
-  dua cara.<br /><br />
-  1. Dengan mengklik pada tautan yang terdapat dalam email.
+  define('SUB_HEADING_TEXT','Jika Anda telah menerima sebuah ' . TEXT_GV_NAME . ' lewat Email, berisikan detail tentang orang yang mengirim
+  ' . TEXT_GV_NAME . ' tersebut kepada Anda, bersama dengan sebuah pesan singkat dari mereka. Email 
+  tersebut juga akan berisi ' . TEXT_GV_REDEEM . ' ' . TEXT_GV_NAME . '. Suatu hal yang baik untuk Anda mencetak 
+  email ini untuk referensi di masa depan. Anda sekarang dapat menebus ' . TEXT_GV_NAME . ' tersebut dalam
+  satu dari dua cara.<br /><br />
+  1. Dengan mengeklik tautan yang terkandung dalam email untuk tujuan ini.
   Ini akan membawa Anda ke halaman Penebusan ' . TEXT_GV_NAME . ' toko ini. Anda kemudian akan diminta
   untuk membuat sebuah akun, sebelum ' . TEXT_GV_NAME . ' tersebut divalidasi dan ditempatkan pada akun 
-   ' . TEXT_GV_NAME . ' Anda dan siap untuk Anda belanjakan produk apa saja yang Anda inginkan.<br /><br />
+   ' . TEXT_GV_NAME . ' Anda dan siap untuk belanja produk apa saja dari toko kami.<br /><br />
   2. Selama proses selesai berbelanja, pada halaman yang sama tempat Anda memilih sebuah cara pembayaran
   akan terdapat sebuah kotak untuk mengetikkan ' . TEXT_GV_REDEEM . '. Ketikkan ' . TEXT_GV_REDEEM . ' disini, dan
   klik tombol Tebus. Kode akan 
-  divalidasi dan jumlahnya akan ditambahkan ke Akun ' . TEXT_GV_NAME . ' Anda. Anda kemudian dapat menggunakan jumlah tersebut untuk membeli suatu barang dari toko kami.');
+  divalidasi dan jumlahnya akan ditambahkan ke Saldo ' . TEXT_GV_NAME . ' Anda. Anda dapat menggunakan jumlah tersebut untuk membeli suatu barang dari toko kami.');
   break;
   case '5':
   define('SUB_HEADING_TITLE','Jika terjadi masalah.');
   define('SUB_HEADING_TEXT','Untuk setiap pertanyaan yang berkenaan dengan Sistem ' . TEXT_GV_NAME . ', silakan hubungi toko ini
   melalui email di '. STORE_OWNER_EMAIL_ADDRESS . '. Mohon pastikan bahwa Anda telah memberikan
-  sebanyak mungkin informasi dalam Email tersebut. ');
+  sebanyak mungkin informasi terkait isu sehingga kami dapat mengatasi masalah tersebut. ');
   break;
   default:
   define('SUB_HEADING_TITLE','');

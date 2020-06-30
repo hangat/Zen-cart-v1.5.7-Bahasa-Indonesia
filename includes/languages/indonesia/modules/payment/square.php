@@ -8,8 +8,8 @@
  */
 
 define('MODULE_PAYMENT_SQUARE_TEXT_DESCRIPTION', 'Terima kartu kredit dalam waktu kurang dari 5 menit.<br>Tidak ada biaya bulanan dan tidak ada biaya setup.<br>Sesuai PCI. Pelanggan tidak pernah meninggalkan toko Anda!<br>Tarif standar adalah 2.9% + $0.30 per transaksi.<br>Dana disimpan di rekening bank Anda dalam 1-2 hari kerja.<br><br>
-       <a href="https://www.zen-cart.com/partners/square" target="_blank">Dapatkan informasi lebih lanjut, atau Daftar untuk akun</a><br><br>
-       <a href="https://squareup.com/login" target="_blank">Masuk ke Akun Square Anda</a>');
+       <a href="https://www.zen-cart.com/partners/square" rel="noopener" target="_blank">Dapatkan informasi lebih lanjut, atau Daftar untuk akun</a><br><br>
+       <a href="https://squareup.com/login" rel="noopener" target="_blank">Masuk ke Akun Square Anda</a>');
 
 define('MODULE_PAYMENT_SQUARE_TEXT_ADMIN_TITLE', 'Square'); // Payment option title as displayed in the admin
 define('MODULE_PAYMENT_SQUARE_TEXT_CATALOG_TITLE', 'Kartu Kredit');  // Payment option title as displayed to the customer

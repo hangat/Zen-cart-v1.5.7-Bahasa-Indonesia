@@ -32,7 +32,7 @@ define('EMAIL_GV_TEXT_HEADER', 'Selamat, Anda telah menerima sebuah ' . TEXT_GV_
 define('EMAIL_GV_FROM', TEXT_GV_NAME . ' ini telah dikirimkan kepada Anda oleh %s');
 define('EMAIL_GV_MESSAGE', 'dengan sebuah pesan seperti berikut ini: ');
 define('EMAIL_GV_SEND_TO', 'Hallo, %s');
-define('EMAIL_GV_REDEEM', 'Untuk menebus ini ' . TEXT_GV_NAME . ', silakan klik pada tautan dibawah. Mohon tuliskan ' . TEXT_GV_REDEEM . ': %s ini pada sebuah kertas untuk jaga-jaga kalau-kalau ada masalah.');
+define('EMAIL_GV_REDEEM', 'Untuk menebus ini ' . TEXT_GV_NAME . ', silakan klik pada tautan dibawah. Mohon tuliskan ' . TEXT_GV_REDEEM . ': %s ini pada sebuah kertas untuk berjaga kalau ada masalah.');
 define('EMAIL_GV_LINK', 'Untuk menebus klik disini');
 define('EMAIL_GV_FIXED_FOOTER', 'Jika Anda menemukan masalah disaat menebus ' . TEXT_GV_NAME . ' menggunakan tautan otomatis di atas, ' . "\n" .
                                 'Anda juga dapat mengetikkan ' . TEXT_GV_REDEEM . ' ' . TEXT_GV_NAME .   ' selama proses selesai berbelanja pada toko kami.');

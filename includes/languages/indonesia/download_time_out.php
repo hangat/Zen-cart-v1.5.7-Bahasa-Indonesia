@@ -13,6 +13,6 @@ define('HEADING_TITLE', 'Pengunduhan Anda ...');
 define('TEXT_INFORMATION', 'Kami mohon maaf akan tetapi pengunduhan Anda telah kadaluarsa.<br /><br />
   Jika Anda memiliki pengunduhan lainnya dan ingin mendapatkan mereka,
   silakan pergi ke halaman <a href="' . zen_href_link(FILENAME_ACCOUNT, '', 'SSL') . '">Akun Saya</a> untuk melihat pesanan Anda.<br /><br />
-  Atau, jika Anda yakin bahwa terdapat masalah dengan pesanan Anda, silakan <a href="' . zen_href_link(FILENAME_CONTACT_US) . '">Hubungi Kami</a> <br /><br />
+  Atau, jika Anda yakin bahwa terdapat masalah dengan pesanan Anda, silakan <a href="' . zen_href_link(FILENAME_CONTACT_US, '', 'SSL') . '">Hubungi Kami</a> <br /><br />
   Terima Kasih!
   ');

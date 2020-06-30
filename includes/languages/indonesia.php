@@ -12,10 +12,10 @@
 //define('CUSTOM_KEYWORDS', 'ecommerce, open source, shop, online shopping');
 // END: moved to meta_tags.php
 
-  define('FOOTER_TEXT_BODY', 'Hak Cipta &copy; ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '" target="_blank">' . STORE_NAME . '</a>. Diberdayakan oleh <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
+  define('FOOTER_TEXT_BODY', 'Hak Cipta &copy; ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '">' . STORE_NAME . '</a>. Diberdayakan oleh <a href="https://www.zen-cart.com" rel="noopener noreferrer" target="_blank">Zen Cart</a>');
 
 // look in your $PATH_LOCALE/locale directory for available locales..
-  $locales = array('id_ID.UTF-8', 'id_ID', 'Indonesian_indonesia.1252', 'id');
+  $locales = ['id_ID', 'id_ID.UTF-8.utf8', 'id', 'Indonesian_indonesia.1252'];
   @setlocale(LC_TIME, $locales);
   define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // this is used for strftime()
   define('DATE_FORMAT', 'd/m/Y'); // this is used for date()
@@ -569,7 +569,7 @@ define('ARIA_PAGINATION_','');
   define('EMAIL_SEND_FAILED','KESALAHAN: Gagal mengirim email ke: "%s" <%s> dengan judul: "%s"');
 
   define('DB_ERROR_NOT_CONNECTED', 'Kesalahan - Tidak dapat terhubung ke Database');
-  define('ERROR_DATABASE_MAINTENANCE_NEEDED', '<a href="http://www.zen-cart.com/content.php?334-ERROR-0071-There-appears-to-be-a-problem-with-the-database-Maintenance-is-required" target="_blank">ERROR 0071: Sepertinya masalah muncul dengan database. Diperlukan perbaikan.</a>');
+  define('ERROR_DATABASE_MAINTENANCE_NEEDED', '<a href="https://docs.zen-cart.com/user/troubleshooting/error_71_maintenance_required/" rel="noopener" target="_blank">ERROR 0071: Sepertinya masalah muncul dengan database. Diperlukan perbaikan.</a>');
 
   // EZ-PAGES Alerts
   define('TEXT_EZPAGES_STATUS_HEADER_ADMIN', 'PERINGATAN: EZ-PAGES HEADER - Aktif untuk IP Admin Saja');

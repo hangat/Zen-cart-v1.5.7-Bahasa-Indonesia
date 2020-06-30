@@ -9,6 +9,6 @@
 
 define('HEADING_TITLE', 'Keluar');
 define('NAVBAR_TITLE', 'Keluar');
-define('TEXT_MAIN', 'Anda telah berhasil keluar dari akun Anda. Sekarang sudah aman untuk meninggalkan komputer ini.<br /><br />Jika Anda memiliki barang-barang dalam Troli Anda, maka mereka telah disimpan. Barang-barang di dalam Troli Anda akan dimuat kembali setelah Anda melakukan login kembali ke akun Anda.');
+define('TEXT_MAIN', 'Anda telah berhasil keluar dari akun Anda. Sekarang sudah aman untuk meninggalkan komputer ini.<br /><br />Jika Anda memiliki barang-barang dalam Troli Anda, maka mereka telah disimpan. Barang-barang Anda akan dimuat kembali setelah Anda melakukan <a href="' . zen_href_link(FILENAME_LOGIN, '', 'SSL') . '"><span class="pseudolink">login kembali ke akun Anda.</span></a>.<br />');
 
 ?>

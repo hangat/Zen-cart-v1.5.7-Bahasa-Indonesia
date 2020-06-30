@@ -35,10 +35,10 @@ define('EMAIL_TEXT_TELEPHONE', 'Telp: ');
 
 // email disclaimer
 define('EMAIL_DISCLAIMER', 'Alamat Email ini telah diberikan kepada kami oleh Anda atau oleh salah satu dari pelanggan kami. Jika Anda merasa bahwa Anda telah menerima email ini dalam kesalahan, silakan kirimkan sebuah email kepada kami ke %s');
-define('EMAIL_SPAM_DISCLAIMER','Email ini dikirimkan sesuai dengan peraturan pada US CAN-SPAM Law yang berlaku pada tanggal 01/01/2004. Permintaan penghapusan akan dihargai dan dihormati dan dapat dikirimkan ke alamat ini.');
+define('EMAIL_SPAM_DISCLAIMER','');
 // Define a message you'd like to add to an order confirmation email
 define('EMAIL_ORDER_MESSAGE',''); 
-define('EMAIL_FOOTER_COPYRIGHT','Hak Cipta (c) ' . date('Y') . ' <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>. Dibangun di atas aplikasi <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
+define('EMAIL_FOOTER_COPYRIGHT','Hak Cipta (c) ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '">' . STORE_NAME . '</a>. Powered by <a href="https://www.zen-cart.com">Zen Cart</a>');
 define('TEXT_UNSUBSCRIBE', "\n\nTo Berhenti langganan dari fitur buletin dan email promosi, dengan mudah klik pada tautan berikut: \n");
 
 // email advisory for all emails customer generate - tell-a-friend and GV send

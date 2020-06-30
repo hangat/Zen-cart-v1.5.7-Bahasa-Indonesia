@@ -6,7 +6,7 @@
  * @version $Id: Scott C Wilson 2020 Apr 10 Modified in v1.5.7 $
  */
 
-define('TEXT_INFORMATION', 'Anda mungkin ingin untuk menambahkan sejumlah instruksi untuk menggunakan Troli disini. (terdapat dalam includes/languages/indonesia/shopping_cart.php)');
+define('TEXT_INFORMATION', 'Anda dapat melanjutkan pembelian Anda dengan mengklik tombol Checkout di bawah ini. Pengiriman dan Pajak dan Diskon akan ditangani pada halaman berikutnya.');
 
 define('NAVBAR_TITLE', 'Troli');
 define('HEADING_TITLE', 'Isi Troli Anda');

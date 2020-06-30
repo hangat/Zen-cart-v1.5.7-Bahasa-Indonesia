@@ -8,7 +8,7 @@
 
 define('TEXT_PRODUCT_NOT_FOUND', 'Maaf, produk tersebut tidak ditemukan.');
 define('TEXT_CURRENT_REVIEWS', 'Ulasan Saat Ini:');
-define('TEXT_MORE_INFORMATION', 'Untuk informasi lebih lanjut, silakan kunjungi <a href="%s" target="_blank">halaman web</a> produk ini.');
+define('TEXT_MORE_INFORMATION', 'Untuk informasi lebih lanjut produk ini, silakan kunjungi <a href="%s" rel="noreferrer noopener" target="_blank">halaman web</a>.');
 define('TEXT_DATE_ADDED', 'Produk ini telah ditambahkan ke dalam katalog kami pada %s.');
 define('TEXT_DATE_AVAILABLE', 'Produk ini akan tersedia pada %s.');
 define('TEXT_ALSO_PURCHASED_PRODUCTS', 'Pelanggan yang membeli produk ini juga membeli...');

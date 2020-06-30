@@ -26,7 +26,7 @@ define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', '<strong>Lanjutkan ke Langkah 3</str
 define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', '- untuk konfirmasi pesanan Anda.');
 
 define('TABLE_HEADING_CONDITIONS', '<span class="termsconditions">Peraturan dan Persyaratan</span>');
-define('TEXT_CONDITIONS_DESCRIPTION', '<span class="termsdescription">Silakan nyatakan bahwa Anda telah menerima peraturan dan persyaratan yang diberlakukan kepada pesanan ini dengan mencentang kotak berikut ini. Peraturan dan persyaratan tersebut dapat dibaca <a href="' . zen_href_link(FILENAME_CONDITIONS, '', 'SSL') . '"><span class="pseudolink">disini</span></a>.');
+define('TEXT_CONDITIONS_DESCRIPTION', '<span class="termsdescription">Silakan nyatakan bahwa Anda telah menerima peraturan dan persyaratan yang diberlakukan kepada pesanan ini dengan mencentang kotak berikut ini. Peraturan dan persyaratan tersebut dapat dibaca <a href="' . zen_href_link(FILENAME_CONDITIONS, '', 'SSL') . '" rel="noopener" target="_blank"><span class="pseudolink">disini</span></a>.</span>');
 define('TEXT_CONDITIONS_CONFIRM', '<span class="termsiagree">Saya telah membaca dan menyetujui peraturan dan persetujuan yang diberlakukan kepada pesanan ini.</span>');
 
 define('TEXT_YOUR_TOTAL','Total Anda');

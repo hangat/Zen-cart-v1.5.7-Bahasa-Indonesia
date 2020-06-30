@@ -33,12 +33,12 @@
   define('OFFICE_DATE_TIME','Tanggal dan Waktu:');
 
 // email disclaimer
-  define('EMAIL_DISCLAIMER', 'Alamat email ini telah diberikan kepada kami oleh Anda atau oleh salah satu dari pelanggan kami. Jika Anda merasa bahwa Anda telah menerima e-mail ini dalam kesalahan, silakan kirimkan sebuah e-mail kepada kami ke %s');
-  define('EMAIL_SPAM_DISCLAIMER','E-Mail ini dikirimkan sesuai dengan peraturan pada US CAN-SPAM Law yang berlaku pada tanggal 01/01/2004. Permintaan penghapusan akan dihargai dan dihormati dan dapat dikirimkan ke alamat ini.');
-  define('EMAIL_FOOTER_COPYRIGHT','Hak Cipta (c) ' . date('Y') . ' <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>. Diberdayakan oleh <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
-  define('SEND_EXTRA_GV_ADMIN_EMAILS_TO_SUBJECT','[ADMIN VH TERKIRIM]');
-  define('SEND_EXTRA_DISCOUNT_COUPON_ADMIN_EMAILS_TO_SUBJECT','[KUPON DISKON]');
-  define('SEND_EXTRA_ORDERS_STATUS_ADMIN_EMAILS_TO_SUBJECT','[STATUS PESANAN]');
+  define('EMAIL_DISCLAIMER', "\n" . 'Alamat email ini telah diberikan kepada kami oleh Anda atau oleh salah satu dari pelanggan kami. Jika Anda merasa bahwa Anda telah menerima e-mail ini dalam kesalahan, silakan kirimkan sebuah e-mail kepada kami ke %s');
+  define('EMAIL_SPAM_DISCLAIMER','');
+  define('EMAIL_FOOTER_COPYRIGHT','Hak Cipta (c) ' . date('Y') . ' <a href="https://www.zen-cart.com">Zen Cart</a>. Powered by <a href="http://www.zen-cart.com">Zen Cart</a>');
+  define('SEND_EXTRA_GV_ADMIN_EMAILS_TO_SUBJECT','[GV ADMIN SENT]');
+  define('SEND_EXTRA_DISCOUNT_COUPON_ADMIN_EMAILS_TO_SUBJECT','[DISCOUNT COUPONS]');
+  define('SEND_EXTRA_ORDERS_STATUS_ADMIN_EMAILS_TO_SUBJECT','[ORDERS STATUS]');
   define('TEXT_UNSUBSCRIBE', "\n\nUntuk berhenti berlangganan dari buletin masa depan dan email promosi, silakan klik tautan dibawah ini: \n");
 
 // for whos_online when gethost is off
