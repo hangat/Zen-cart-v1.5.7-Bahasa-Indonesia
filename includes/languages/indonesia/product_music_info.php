@@ -6,7 +6,7 @@
  * @version $Id: DrByte 2020 May 16 Modified in v1.5.7 $
  */
 
-define('TEXT_PRODUCT_NOT_FOUND', Maaf, produk tersebut tidak ditemukan.');
+define('TEXT_PRODUCT_NOT_FOUND', 'Maaf, produk tersebut tidak ditemukan.');
 define('TEXT_CURRENT_REVIEWS', 'Ulasan Saat Ini:');
 define('TEXT_RECORD_COMPANY_URL', 'Untuk informasi lebih lanjut, silakan kunjungi <a href="%s" rel="noreferrer noopener" target="_blank">halaman web</a> Perusahaan Rekaman.');
 define('TEXT_DATE_ADDED', 'Produk ini telah ditambahkan ke dalam katalog kami pada %s.');
