@@ -12,7 +12,7 @@ define('NAVBAR_TITLE_2', 'Berhasil - Terima Kasih');
 define('HEADING_TITLE', 'Terima Kasih! Kami Menghargai Pembelian Anda!');
 
 define('TEXT_SUCCESS', '');
-define('TEXT_NOTIFY_PRODUCTS', 'Please notify me of updates to these products');
+define('TEXT_NOTIFY_PRODUCTS', 'Mohon beri tahu saya tentang pembaruan untuk produk-produk ini');
 // Still used by some older templates
 define('TEXT_SEE_ORDERS', 'Anda dapat melihat riwayat pemesanan Anda dengan pergi ke halaman <a href="' . zen_href_link(FILENAME_ACCOUNT, '', 'SSL') . '">Akun Saya</a> dan mengklik "Perlihatkan Semua Pesanan."');
 define('TEXT_CONTACT_STORE_OWNER', 'Silakan sampaikan setiap pertanyaan yang ingin Anda tanyakan ke <a href="' . zen_href_link(FILENAME_CONTACT_US) . '">bagian layanan pelanggan</a>.');
