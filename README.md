@@ -19,3 +19,8 @@ Cara Instal zen-cart v.1.5.7 Modul Bahasa Indonesia.
 7. Seharusnya sekarang admin berganti menjadi bahasa Indonesia.
 
 git: https://github.com/hangat/Zen-cart-v1.5.7-Bahasa-Indonesia
+
+------------------------------
+# Baru
+------------------------------
+**__Judul dan Deskripsi pada menu: Admin > Konfigurasi,__** sudah bisa berubah otomatis saat pemilihan bahasa dari DropDown Pilih Bahasa 
